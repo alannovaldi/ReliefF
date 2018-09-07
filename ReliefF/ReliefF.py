@@ -69,6 +69,8 @@ class ReliefF(object):
         None
 
         """
+        
+
         self.feature_scores = np.zeros(X.shape[1])
         self.tree = KDTree(X)
 
